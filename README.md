@@ -115,7 +115,7 @@ Plik `google-services.json` zawiera wrażliwe klucze API i **NIE** jest udostęp
 - **Email**: `a@a.pl`
 - **Hasło**: `zaq1@WSX`
 
-**Uwaga**: Ten użytkownik jest skonfigurowany w Firebase Authentication i może być używany do testowania aplikacji.
+**Uwaga**: Ten użytkownik jest skonfigurowany w moim prywatnym Firebase Authentication udostępnionym na potrzeby zaliczenia i może być używany do testowania aplikacji.
 
 ## 📋 Instrukcja Użytkowania
 
